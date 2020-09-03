@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Saylani Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="background-color: azure; color: brown; text-transform: capitalize; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center;">Created By Mubashir Ibrahim</h1>
+<div class="main" style="color:blue;">
+
+    <img src="https://www.saylaniwelfare.com/public_html/images/saylani/Saylani-logo.png" alt="Saylani Welfare Society">
+    
+        <form action="">
+            <p>
+                <label for="firstname">First Name :</label>
+                <input type="text" id="firstname" size="25" maxlength="30" placeholder="Enter First Name">(Maximum text
+                is allowed upto 30 characters)
+
+            </p>
+            <p>
+                <label for="lastname">Last Name : </label>
+                <input type="text" id="lastname" size="25" maxlength="30" placeholder="Enter last name">(Maximum text is
+                allowed upto 30 characters)
+            </p>
+            <p>
+                <label for="dob">Date of Birth :</label>
+                <input type="date" name="date" id="dob">
+
+            </p>
+            <p>
+                <label for="number">Mobile Number :</label>
+                <input type="number" id="number" size="25" maxlength="11" placeholder="Enter your Number...">(Enter
+                without Dash)
+            </p>
+            <p>
+                <label>Gender : </label>
+                <label for="male">Male : </label> <input type="radio" name="Gender" id="male">
+                <label for="female">female : </label> <input type="radio" name="Gender" id="female">
+                <label for="other">Others : </label> <input type="radio" name="Gender" id="other">
+            </p>
+            <p>
+                <label for="add">Address : </label>
+                <br>
+                <textarea name="address" id="add" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <label for="city">City Name :</label>
+                <input type="text" id="city" placeholder="Enter City ..." size="25" maxlength="30">(Maximum text is
+                allowed upto 30 characters)
+            </p>
+            <p>
+                <label for="pincode">Pincode: </label>
+                <input type="text" id="pincode" placeholder="Enter City Pincode.." size="25" max="999999"
+                    maxlength="6">(Maximum 6 Digits are Allowed)
+            </p>
+            <p>
+                <label for="State">State : </label>
+                <input type="text" placeholder="Enter your State" id="State" size="25" maxlength="30">
+            </p>
+            <p>
+                <label for="country">Country : </label>
+                <input type="text" name="Country" id="country" placeholder="Enter your Country.." size="25"
+                    maxlength="30">
+            </p>
+            <p>
+                <label>Hobbies : </label>
+                <label for="criket">&emsp;Cricket </label> <input type="checkbox" value="Cricket" name="hobbies"
+                    id="criket">
+                <label for="Osports">Other Sports </label> <input type="checkbox" value="other sports" name="hobbies"
+                    id="Osports">
+                <label for="swim">Swimming </label> <input type="checkbox" value="Swimming" name="hobbies" id="swim">
+                
+                <label for="otherh">Others </label>
+                <input type="checkbox" name="hobbies" id="otherh" value="other">
+                <input type="text" name="hobbies">
+            </p>
+        </form>
+    </div>
+    
+</body>
+
+</html>

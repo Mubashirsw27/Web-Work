@@ -1,0 +1,90 @@
+li
+{
+    /* display: inline;
+    margin: 5px; */
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+span
+{
+    display:block;
+    background-color: thistle;
+}
+.main
+{
+    border: 10px solid yellowgreen;
+    padding: 5px;
+    width: 50%;
+    box-shadow: 3px 3px 3px saddlebrown;
+    text-shadow: 2px 2px 2px rosybrown;
+    /* border-image: url(https://i.pinimg.com/originals/64/b6/73/64b6739df242159910aa419f8a5cd939.jpg) 30%; */
+    border-radius: 10px;
+}
+
+/* p:first-letter
+{
+    font-size: 60px;
+    color: darkblue;
+}
+p
+{
+    text-shadow: 1px 1px 2px blue;
+    background-color: cornsilk;
+    color: crimson;
+
+} */
+/* p[class="lor"]
+{
+    color: forestgreen;
+}
+p[class="pak"]
+{
+    color: fuchsia;
+} */
+/* .main
+{
+    border: 3px dashed red;
+    background-color: thistle;
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+    /* overflow: hidden; */
+    
+}
+p
+{
+    background-color: silver;
+    border:2px solid teal;
+    padding: 10px;
+    margin: 10px;
+} */
+/* p[attr^="p"]
+{
+color: greenyellow;
+}
+a.format:link
+{
+    color: darkblue;
+}
+a.format:visited
+{
+    color: rgb(246, 250, 246);
+    font-weight: 100;
+}
+input:hover,input:active
+{
+    background-color: rgb(241, 235, 235);
+}
+input:active
+{
+    background-color: forestgreen;
+}
+button
+{
+    color: dodgerblue;
+}
+button:hover
+{
+    background-color: rgb(39, 8, 241);
+} */

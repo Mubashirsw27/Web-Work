@@ -1,0 +1,102 @@
+div.background {
+    background: url(https://i.insider.com/5ecd83994dca6847f2265f65?width=1100&format=jpeg&auto=webp);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: 100% ;
+    
+}
+
+div.transbox {
+    margin: 0px 0px 0px 0px;
+    background-color: #5f615d;
+    border: 2px solid black;
+    opacity: 0.9;
+    padding: 20px 20px 20px 20px;
+}
+
+p {
+    color: rgb(246, 249, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.top {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    position :relative;
+    
+    left: 60%;
+    border: 3px solid rgb(200, 196, 190);
+    padding: 19px 12px 2px 12px ;
+    text-decoration: solid;
+    font-weight: bolder;
+    background-color: rgb(172, 167, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    /* float: right; */
+    color: rgb(255, 255, 255);
+}
+#trainc
+{
+    position: relative; top: -20px; display: inline;
+}
+#info
+{
+    padding: -12px 2px 2px 2px;}
+#muscle
+{
+    margin: 10px 0px 0px 0px; position:relative; top: -5px;
+}
+#pdfile
+{
+    margin: 40px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+a {
+    display: inline;
+    margin: 20px auto;
+    /* height: 40px;
+    width: 90px; */
+    /* position: relative;
+    left: 900px; */
+    border: 3px solid rgb(200, 196, 190);
+    
+    text-decoration: solid;
+    background-color: rgb(172, 167, 167);
+    font-family: Arial, Helvetica, sans-serif;
+    /* float: right; */
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: darkblue;
+    background-color: rgb(241, 223, 139);
+}
+
+h1 {
+    color: rgb(30, 15, 83);
+    text-shadow: 2px 2px 2px blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: inline;
+    text-align: left;
+    margin: 20px auto;
+    padding: 100px auto;
+    border: 15px solid rgb(3, 43, 70);
+}
+
+.Content {
+    margin: 400px 0px 0px 50px;
+    padding: 60px;
+    text-shadow: 2px 2px 2px rgb(146, 146, 170);
+}
+
+body,
+html {
+    height: 100%;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% ;
+    
+}

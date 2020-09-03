@@ -1,0 +1,32 @@
+div.background {
+    background: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: 100% 100%;
+}
+
+div.transbox {
+    margin: auto;
+    background-color: #636060;
+    border: 1px solid black;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+a {
+    margin: 5px 5px;
+    border: 2px solid oldlace;
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(250, 194, 10);
+}
+
+h1 {
+    color: rgb(250, 194, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: inline;
+    text-align: left;
+}
