@@ -1,0 +1,75 @@
+body {
+    font-family: 'Yeon Sung';
+    font-size: 22px;
+    background-color: white !important;
+}
+
+.header {
+    color: white;   
+    text-align: center;
+    justify-content: end;
+    background-size: cover;
+    align-items: baseline;
+    margin-top: 65px;
+    background-color: blue;
+    
+}
+.info {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .wrd {
+  
+     text-align: center !important;
+} */
+
+.wwrd1 {
+   text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food, .education, .doctor, family {
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lins {
+    padding: 30px;
+}
+
+.fb {
+    padding: 10px;
+}
+
+.insta {
+    padding: 10px;
+}
+
+.youtube {
+    padding: 10px;
+}
+
+.tweet {
+    padding: 10px;
+}
+
+.btn, a {
+    margin: 5px !important;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white {
+    color: white;
+}

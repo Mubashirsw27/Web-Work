@@ -4,7 +4,9 @@
 // var c = 2;
 // var d = b - c * a;
 // alert("sum is : "+d);
-var a =3;
-a++;
-var b = ++a;
-alert(b +" "+a);
+// var a =3;
+// a++;
+// var b = ++a;
+// alert(b +" "+a);
+var name= prompt("What is your Name ?" ,"Mubashir");
+console.log(name);
