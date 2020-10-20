@@ -14,17 +14,15 @@ body {
     background-color: blue;
     
 }
-.info {
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-/* .wrd {
-  
-     text-align: center !important;
-} */
+.intro
+{
+    display: inline-block;
+}
+.ch
+{
+    font-family: 'Sansita Swashed', cursive;
+}
 
 .wwrd1 {
    text-align: center;
