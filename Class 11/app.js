@@ -15,8 +15,18 @@
 // a=12;
 // const a =["a"];
 // document.write(a);  
-for(var a=0;a<=10;a+=2)
-{
-    document.write(a); 
-    
-}
+// for(var a=1;a<10;a++)
+// {
+//     document.write(a); 
+
+// }
+// var arr = ["1","2","3","4","5","6","7","8","9","10"];
+// var arr1=arr.slice(0,arr.length);
+// for(var i=0;i < arr.length;i++)
+// {
+//     document.write(arr[i]+"'s Table <br>");
+// for(var j=0;j<arr1.length;j++)
+// {
+//     document.write(arr[i]+" x "+arr[j]+" = "+(arr[i]*arr1[j])+"<br>");
+// }
+// }
