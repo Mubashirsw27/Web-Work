@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculater</title>
+    <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container container-md border">
+        <div class="row heading">
+            <p class="h1 text-light">My Calculater</p>
+        </div>
+         
+        <div class="row">
+            <!-- row 1 -->
+            <div class="col-lg">
+                <input type="text" name="" id="result">
+            </div>
+        </div>
+        <div class="row">
+            <!-- row 2 -->
+           
+            
+            <div class="col">
+                <label for="ans" class="text-success anslbl">Answer : </label>
+                <input type="number" name="" id="ans">
+            </div>
+        </div>
+        <div class="row">
+            <!-- row 3 -->
+            <div class="col"></div>
+            <div class="col">
+                <button class="text-light bg-success calbtn" id="clear" onclick="solve()">=</button>
+            </div>
+            
+            <div class="col">
+                <button class="text-light bg-success calbtn" id="clear" onclick="result.value = ''">C</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="calbtn"  onclick="getNumber('1')">1</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('2')">2</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('3')">3</button>
+            </div>
+         
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('4')">4</button>
+            </div>
+            <div class="col">
+                
+                <button class="calbtn" onclick="getNumber('5')">5</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('6')">6</button>
+            </div>
+           
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('7')">7</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('8')">8</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('9')">9</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="calbtn" onclick="getNumber(0)">0</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('+')">+</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('-')">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="calbtn " onclick="getNumber('x')">x</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('/')">/</button>
+            </div>
+            <div class="col">
+                <button class="calbtn" onclick="getNumber('%')">%</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
