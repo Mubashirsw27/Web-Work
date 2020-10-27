@@ -33,6 +33,7 @@ result.value+=num
 
 function solve()
 {
-    var result=document.getElementById('result');
-    result.value=eval(result.value)
+    var ans=document.getElementById('ans');
+    ans.value=eval(result.value)
+    result.value=""
 }
