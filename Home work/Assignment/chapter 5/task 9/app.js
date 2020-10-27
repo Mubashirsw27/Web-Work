@@ -1,0 +1,1 @@
+document.write("Total Pakistani Rupees are : "+((104.80*10)+(25*28)));
