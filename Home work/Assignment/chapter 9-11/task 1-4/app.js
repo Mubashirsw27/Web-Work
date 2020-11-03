@@ -32,7 +32,7 @@
 
 //Task 4
 
-var litre = +prompt("Enter your Remaining Fuel : ");
-if (litre <= 0.25) {
-    document.write("Please refill the fuel in your car.");
-}
+// var litre = +prompt("Enter your Remaining Fuel : ");
+// if (litre <= 0.25) {
+//     document.write("Please refill the fuel in your car.");
+// }
