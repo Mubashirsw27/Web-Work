@@ -19,18 +19,12 @@ var value2="";
 // sign=value;
 // result+=sign;
 // }
-
 // }
-
-
 function getNumber(num)
-{
-    
+{   
 var result=document.getElementById('result');
 result.value+=num
 }
-
-
 function solve()
 {
     var ans=document.getElementById('ans');
