@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.offset:before {
+    display: block;
+    content: " ";
+    height: 6rem;
+}
+
+.navbar {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    background: rgba(145, 143, 143, 0.9) !important;
+    padding: 20px 0px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding-left: 30px !important;
+}
+
+.navbar-light .navbar-nav .nav-link .active, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(98, 150, 98) !important;
+    transition: 0.4s;
+}
+
+.content-heading {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+    color: wheat;
+}
+
+.content-heading h5 {
+    font-size: 4em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+.content-heading h1 {
+    font-size: 5em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.content-heading p {
+    font-size: 1.5em;
+    font-family: 'Langar', cursive;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+/* ----About Start---- */
+
+#about .btn {
+    border: 2px solid transparent;
+    padding: 15px 20px;
+    width: 40%;
+    background: black;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+#about .btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#about .btn:hover {
+    border: 2px solid rgb(197, 245, 197);
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+/* ----Services Start---- */
+
+#service .button {
+    border: 2px solid transparent;
+    padding: 15px 20px;
+    width: 40%;
+    background: black;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+#service .button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#service .button:hover {
+    border: 2px solid rgb(197, 245, 197);
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+/* ----Newsletter Start---- */
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(225, 225, 248);
+}
+
+.sec1 h1 {
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sec1 p {
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*------------------Media Queries------------------ */
+
+@media screen and (max-width: 997px) {
+    .navbar {
+        font-size: 10px;
+    }
+    .content-heading h5 {
+        font-size: 2em;
+    }
+    .content-heading h1 {
+        font-size: 3em;
+    }
+    .content-heading p {
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .navbar {
+        font-size: 7.5px;
+    }
+    .content-heading {
+        position: absolute;
+        top: 15%;
+    }
+    .content-heading h5 {
+        font-size: 1.7em;
+    }
+    .content-heading h1 {
+        font-size: 1.8em;
+    }
+    .content-heading p {
+        font-size: 0.50em;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .navbar {
+        font-size: 5px;
+        margin: 0px auto;
+    }
+    .content-heading {
+        position: absolute;
+        top: 15%;
+    }
+    .content-heading h5 {
+        font-size: 0.75em;
+    }
+    .content-heading h1 {
+        font-size: 0.75em;
+    }
+    .content-heading p {
+        font-size: 0.19em;
+        word-spacing: 2.5px;
+        letter-spacing: 0.25px;
+    }
+}
+
+@media screen and (max-width: 353px) {
+  
+    .navbar {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 3px;
+        font-weight: 135;
+        margin-bottom: 25px;
+        padding: 2.5px 0px !important;
+    }
+    .content-heading {
+        position: absolute;
+        top: 9%;
+        width: 100%;
+        max-width: 100%;
+        color: wheat;
+    }
+    .content-heading h5 {
+        font-size: 0.75em;
+    }
+    .content-heading h1 {
+        font-size: 0.75em;
+    }
+    .content-heading p {
+        font-size: 0.19em;
+        word-spacing: 2.5px;
+        letter-spacing: 0.25px;
+    }
+}
