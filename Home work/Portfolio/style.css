@@ -3,12 +3,14 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    
 }
 
 .offset:before {
     display: block;
     content: " ";
     height: 6rem;
+    
 }
 
 .navbar {
@@ -26,7 +28,7 @@ body {
     padding-left: 30px !important;
 }
 
-.navbar-light .navbar-nav .nav-link .active, .navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link.active ,.navbar-light .navbar-nav .nav-link:hover {
     color: rgb(98, 150, 98) !important;
     transition: 0.4s;
 }
