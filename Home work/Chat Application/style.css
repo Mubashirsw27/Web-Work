@@ -1,0 +1,52 @@
+/* The navbar */
+.navbar{
+    background-color: rgb(255, 255, 148);
+}
+.nav-link{
+    color: white !important;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px !important;
+    background-color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: gainsboro;
+    transition: 0.5s;
+}
+/* the body */
+.groupChat
+{
+    border: 1px solid black;
+    width: 500px !important;
+    display: table;
+}
+#messages
+{
+    border: 5px solid black;
+   align-self: center;
+   align-items: center;
+   padding: 2px;
+   width: 100px;
+    
+}
+.heading
+{
+    color: rgb(95, 94, 91) ;
+    /*   */
+
+}
+ #input{
+position: absolute;
+margin-left: 10%  !important;
+margin-bottom: 20% !important;
+ }
+
+#sendBtn{
+    /* margin-left: 48% !important; */
+    position: absolute;
+margin-left: 10%  !important;
+margin-bottom: 10% !important;
+ }
+ 
