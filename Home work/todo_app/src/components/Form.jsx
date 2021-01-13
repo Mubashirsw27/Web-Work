@@ -21,11 +21,9 @@ export default function BasicTextFields() {
   return (
     <form className={classes.root} noValidate autoComplete="off">
       <TextField style={{fontSize:"20px"}}  label="Name" />
-
       <br />
-      <TextField style={{fontSize:"20px",fontWeight:"5px"}} className='ch' label="TODO"  />
+      <TextField style={{fontSize:"20px"}} className='ch' label="TODO"  />
       <br/>
-      
      <Buttons/>
     </form>
   );
