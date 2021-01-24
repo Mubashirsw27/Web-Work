@@ -2,20 +2,70 @@ body
 {
   background-color: aquamarine !important;
 }
-.todo
+.main
 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  align-self: center;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+
+.todo,.todos
+{
+  margin: auto;
+  margin-top: 20%;
   text-align: center;
   background-color: white !important;
   border: 0px solid gray;
   border-radius: 15px;
   box-shadow: 0px 0px 10px grey;
-  padding: 50px;
+  padding:35px;
 }
-.ch{
+
+button
+{
+  margin-top: 10px;
+}
+button:hover
+{
+  background-color: rgb(5, 73, 95) !important;
+  border: none;
+  box-shadow: 0px 0px 12px black;
+}
+li
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 1em;
+  box-shadow: 0px 0px 8px black;
+  padding: 5px;
+  width: 300px;
+}
+button
+{
+margin-bottom: 10px !important;
+margin-left: 10px;
+}
+@media  only screen and (max-width:677px)
+{
+  .main
+  {
+    display: block;
+    padding: 2px;
+    font-size: 1em;
+  }
   
+  .todo,.todos
+  {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  li{
+    width: 200px;
+   
+
+  }
 }
+
