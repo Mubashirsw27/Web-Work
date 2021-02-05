@@ -1,19 +1,27 @@
 import './App.css';
 import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
+
+
+
 class App extends Component {
+ 
   constructor() {
     super()
+    
     this.state = {
-      task: [{ todo: "Morning", edit: false }],
+      task: [{todo : 'Morning',edit : false}],
       value: ''
     }
   }
+ 
   add_Todo = () => {
+   
     let obj = {
       todo: this.state.value,
       edit: false
     }
+    
     this.setState({
       task: [...this.state.task, obj],
       value: ''
