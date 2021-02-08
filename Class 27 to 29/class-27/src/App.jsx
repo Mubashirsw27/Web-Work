@@ -2,7 +2,7 @@
 
 import './App.css';
 import React from 'react';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 
 // class App extends React.Component {
 //   constructor() {
@@ -72,13 +72,28 @@ import Navbar from './components/Navbar';
 //   }
 // }
 // export default App;
-import AppRouter from './config/router'
-class App extends React.Component
-{
-render(){
-  return(
-    <AppRouter/>
-  );
+import AppRouter from './config/router';
+import { connect } from 'react-redux';
+import { set_data } from './store/action'
+class App extends React.Component {
+  render() {
+    console.log("State=>", this.props)
+    return (
+      <div>
+        <AppRouter />
+        <button onClick={() => this.props.set_data("App Name Changed")}>CLick</button>
+      </div>
+    );
+  }
 }
+const mapStateToProps = (state /*, ownProps*/) => {
+  return {
+    id: state.auth.id,
+    app: state.app.app_name
+  }
 }
-export default App;
+
+const mapDispatchToProp = (dispatch) => ({
+  set_data: (data) => { dispatch(set_data(data)) }
+})
+export default (connect(mapStateToProps, mapDispatchToProp))(App); 
