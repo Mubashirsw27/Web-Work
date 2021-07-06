@@ -12,7 +12,7 @@
 }
 .app_formControl{
   display: flex !important;
-  flex-direction: row !important;
+  flex-direction: column  ;
 }
 .app_input{
 flex: 1;
@@ -20,4 +20,9 @@ flex: 1;
 .app_IconBtn
 {
   flex: 0;
+}
+
+@media screen only and (max-width :617px)
+{
+
 }
