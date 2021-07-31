@@ -5,8 +5,11 @@ const CompB = () => {
         <>
             <Data.Consumer>
                 {(data) => {
-                    return(
-                        <h1>Hi My Name is {data.name} and roll no is  {data.roll} </h1>
+                    return (
+                        <div>
+                            <h1>Hey Its Component B</h1>
+                            <h1>Hi My Name is {data.name} and roll no is  {data.roll} </h1>
+                        </div>
                     )
                 }}
             </Data.Consumer>

@@ -47,11 +47,11 @@
 //Adding Padding to the String
 
 // var a="1";
-// // a=a.padStart(3,"H");
-// a=a.padEnd(3,"H");
+// a=a.padStart(3,"H");
+// // a=a.padEnd(3,"H");
 // console.log(a);
 
-//For returning String
+// For returning String
 // var a=4.1221;
 // a=a.toExponential(0);
 // console.log(a)

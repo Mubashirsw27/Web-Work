@@ -44,24 +44,26 @@ function App() {
   }
   return (
     <div className="App">
-      <img src={messenger} width="100px"></img>
-      <h1>Hello Programmers💻</h1>
-      <h3>Welcome {userName}</h3>
+      <div className="header">
+        <img src={messenger} width="75px"></img>
+        <h2>Hello Programmers💻</h2>
+        <h4>Welcome {userName}</h4>
+      </div>
       <form className="app_form">
         <FormControl className="app_formControl">
           {/* <InputLabel >Enter A Message.....</InputLabel> */}
           <Input className="app_input" placeholder='Enter Something' value={input} onChange={event => setInput(event.target.value)} />
           <IconButton className="app_IconBtn" disabled={!input} type="submit" onClick={sendMessage} variant="contained" color="primary">
-            <SendIcon/>
+            <SendIcon />
           </IconButton>
           {/* <Button disabled={!input} type="submit" onClick={sendMessage} variant="contained" color="primary">Send Data</Button> */}
         </FormControl>
       </form>
-      <FlipMove>
+      <FlipMove className="flipMove">
         {
-          messages.map(({id,messag}) => {
+          messages.map(({ id, messag,timestamp }) => {
             return (
-              <Message key={id} username={userName} message={messag} />
+              <Message key={id} username={userName} message={messag}/>
             )
           })
         }

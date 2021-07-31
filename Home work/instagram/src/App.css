@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-around;
+}
+
+.app__signUp {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__headerimg {
+  object-fit: contain;
+}
+
+.app_posts {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.add_postLeft {
+  margin-right: 25px !important;
+}
+
+.post__commentBox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post__input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.post__Btn {
+  flex: 0;
+  border: none;
+  color: #584eb6 !important;
+  border-top: 1px solid lightgray;
+}
+
+.post__comments {
+  padding: 20px;
+}
+
+.loginInfo {
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width:782px) {
+  .app_posts {
+    display: flex;
+    flex-direction: column
+  }
+}
