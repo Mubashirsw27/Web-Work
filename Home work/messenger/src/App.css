@@ -1,28 +1,55 @@
 .App {
   text-align: center;
 }
-.app_form {
-  padding: 20px;
-  position: fixed;
-  bottom: 20px;
-  z-index: 1;
-  background-color: rgb(221, 217, 217);
-  width: 80%;
-  margin: 20px;
-}
-.app_formControl{
-  display: flex !important;
-  flex-direction: column  ;
-}
-.app_input{
-flex: 1;
-}
-.app_IconBtn
+
+.header
 {
+  
+  position: fixed;
+  top: 1.8vh;
+  left: 2vw;
+  right: 2vw;
+  z-index: 1;
+  margin: auto !important;
+}
+
+.app_form {
+  padding: 10px;
+  position: fixed !important;
+  bottom: 20px;
+  left: 2vw;
+  right: 2vw;
+  z-index: 1;
+  background-color: rgb(245, 244, 244);
+  width: 80vw;
+  margin: auto !important;
+  border-radius: 10px !important;
+}
+
+.app_formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 1vw !important;
+  position: fixed;
+}
+
+.app_input {
+  flex: 1;
+}
+
+.app_IconBtn {
   flex: 0;
 }
 
-@media screen only and (max-width :617px)
-{
-
+.flipMove {
+  width: 80vw;
+  display: flex;
+  flex-direction: column-reverse !important;
+  margin: auto;
+  margin-top: 28vh;
+  background-color: rgb(210, 239, 240);
+  border-radius: 12px;
+  margin-bottom: 22vh;
+  overflow-y: auto;
+  height: 50vh;
 }

@@ -10,7 +10,8 @@ const data = {
 const App = () => {
   return (
     <>
-      <Data.Provider value={data}>
+      <Data.Provider value={data}> 
+      {/* Here we are using Both Context API and useContext Hook by calling and passing data on each of them*/}
       <CompB></CompB>
       <CompA></CompA>
       </Data.Provider>

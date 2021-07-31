@@ -5,7 +5,7 @@ const CompA = () => {
   const data = useContext(Data);
     return (
     <>
-      <h1>hi Its 2 {data.name}</h1>
+      <h1>Hey Its Component A {data.name}</h1>
     </>
   );
 }
