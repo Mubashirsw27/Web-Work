@@ -1,0 +1,11 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cinzel";
+
+  src: local("Cinzel"),
+    url(./fonts/Cinzel-VariableFont_wght.ttf) format("truetype");
+}
